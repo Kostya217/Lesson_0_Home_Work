@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Advanced search</title>
+	<style type="text/css">
+		body{
+			padding: 20px;
+		}
+		.fontG{
+			margin-left: 50px;
+			width: 300px;
+			height: 30px;
+			margin-right: 20px;
+		}
+		#form1{
+			margin-left: 123px;
+		}
+
+		#form3{
+			margin-left: 74px;
+		}
+		#form4{
+			margin-left: 89px;
+		}
+		#buttom{
+			margin-left: 374px;
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+	<p>Розширений пошук</p>
+	<hr>
+	<br>
+	<p>Знайти сторінку, що містять...</p>
+
+	<form action="https://google.com/search">
+		<p>
+			усі ці слова: 
+			<input class="fontG" id="form1"  type="search" name="as_q">
+			Введіть важливі слова: триколірний рет-тер’єр
+		</p>
+		<p>
+			точне слово або фразу: <input class="fontG" id="form2"  type="search" name="as_epq"> Візьміть точні слова в лапки: "рет-тер’єр"
+		</p>
+		<p>
+			жодне з цих слів: <input class="fontG" id="form4"  type="search" name="as_oq"> Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"
+		</p>
+		<p>
+			будь-яке з цих слів: <input class="fontG" id="form3"  type="search" name="as_eq"> Введіть OR між усіма потрібними словами: мініатюрні OR стандартні
+		</p>
+		<p>
+			<input id="buttom" type="submit" value="Розширений пошук">
+		</p>
+	</form>
+</body>
+</html>
