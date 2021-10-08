@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Image</title>
+
+        <style type="text/css">
+            form{
+                position: absolute;
+                width: 600px;
+                height: 600px;
+                left: calc(50% - 300px);
+                top: calc(50% - 300px);
+                }
+                
+                .fontG, #lucky{
+                    height: 50px;
+                }
+
+            #user{
+                width: 500px;
+                border-radius: 50px ;
+                margin-top: 225px;
+                margin-left: 50px;
+            }
+
+            #buttom, #lucky{
+                width: 170px;
+                font-size: 15px;
+                background-color: white;
+                margin-top: 20px;
+                margin-left: 125px;
+            }
+
+            #lucky{
+                margin-top: 279px;
+                margin-left: 320px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p align="right"><a href="https://google.com">Google</a></p>
+        <form action="https://www.google.com/images">
+            <div>
+                <input class="fontG" id="user" type="search" name="q"  >
+                <input class="fontG" id="buttom" type="submit" value="Google Search Image">
+            </div>
+        </form>
+        <form action="https://www.google.com/search">
+            <p>
+                <input id="lucky" type="submit" value="Мені пощастило">
+            </p>
+        </form>
+    </body>
+</html>
